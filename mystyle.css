@@ -1,0 +1,148 @@
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+}
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.links a:hover {
+    background-color: #555;
+}
+
+
+h1, h2, h3, h4 {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+}
+.work a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+}
+.work a:hover {
+    text-decoration: underline;
+}
+
+
+.thumbnail1, .thumbnail2, .thumbnail3 {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.thumbnail1:hover, .thumbnail2:hover, .thumbnail3:hover {
+    background-color: #f4f4f4;
+}
+.thumbnail:hover {
+    background-color: #f4f4f4;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+}
+.contact p {
+    text-align: center;
+}
+.contact form {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+.contact label, .contact input, .contact textarea {
+    display: block;
+    margin: 10px 0;
+}
+.contact input[type="text"], .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.about {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
+}
+
+
+.about img {
+    max-width: 100%; 
+    height: auto;
+}
